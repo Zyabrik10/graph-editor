@@ -1,0 +1,14 @@
+{
+  "name": "graphs",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0",
+    "parcel": "^2.13.2"
+  }
+}
